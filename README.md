@@ -1,4 +1,4 @@
-#Projet sur les énergies renouvelables - en particulier le solaire et l'éolien
+# Projet sur les énergies renouvelables - en particulier le solaire et l'éolien
 
 ## Contexte
 
