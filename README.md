@@ -28,15 +28,14 @@ La finalité de note P.O.C est multiple :
 
 -	Recherche des données (cf. sources) : à ce jour manquent les informations démographiques et sur les matériaux de construction.
 -	Préparation des données :
-  - Nettoyage (valeurs aberrantes, manquantes)
-  -	Corrélation entre features
-  -	Analyse exploratoire
+    - Nettoyage (valeurs aberrantes, manquantes)
+    -	Corrélation entre features
+    -	Analyse exploratoire
 -	Stockage de la data
 -	Modèle prédictif de machine learning avec Spark & analyse approfondie
 -	Présentation des résultats :
-  -	comparaison des prédictions aux valeurs réelles
-  -	Graphiques de visualisations des différents objectifs 
+    -	comparaison des prédictions aux valeurs réelles
+    -	Graphiques de visualisations des différents objectifs 
 -	Perspectives (optionnel) :
-  -	ingestion d’un flux de données sur la base de data plus récentes pour les futures prédictions
-  -	traitement de ce flux
-
+    -	ingestion d’un flux de données sur la base de data plus récentes pour les futures prédictions
+    -	traitement de ce flux
