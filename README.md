@@ -11,7 +11,7 @@ Au cours de ce projet, nous allons nous intéresser plus particulièrement à l�
 
 ## Objectifs / Use cases :
 
-La finalité de note P.O.C est multiple :
+La finalité de notre P.O.C est multiple :
 
 -	Analyser les zones géographiques en Europe les plus adaptées à la production d'énergie solaire et éolienne : croisement entre données météo et celles issues des capteurs des stations ainsi que des informations démographiques.
 
@@ -26,16 +26,40 @@ La finalité de note P.O.C est multiple :
 
 ## Déroulé du projet / grandes phases : 
 
--	Recherche des données (cf. sources) : à ce jour manquent les informations démographiques et sur les matériaux de construction.
--	Préparation des données :
+-	00.[Informations générales & organisation](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/00_infos) :
+	- fiche projet : contexte, use cases & perspectives
+	- commandes shell et préconisations pour le travail d'équipe
+
+-	01.[Recherche des données](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/01_datasets) : 
+	- [Kaggle](kaggle.com)
+	- [Open Power System Data](https://open-power-system-data.org/)
+	- [European Climate Assessment & Dataset](https://www.ecad.eu/)
+	- [World Bank Open Data](https://data.worldbank.org/)
+
+-	02.[Constitution du datalake](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/02_datalake) - ingestion & préparation des données :
+	- Nettoyage "grande masse" des jeux de données
+	- Selection des data les plus pertinents
+	- Enrichissement : scraping et croissement de données
+
+-	03.[Creation d'une db NoSQL](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/03_NoSql) & première analyse :
+	- conversion en HBASE
+	- premières requêtes pour avoir une vue macro des données
+
+
+-	04.[Analyse de la data](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/04_data_analysis)) :
+	- A developper en fonction des résultats !!!
+	- Tableau...
+
+-	05.[Modèle prédictif de machine learning avec Spark](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/05_spark_ML)
     - Nettoyage (valeurs aberrantes, manquantes)
-    -	Corrélation entre features
-    -	Analyse exploratoire
--	Stockage de la data
--	Modèle prédictif de machine learning avec Spark & analyse approfondie
--	Présentation des résultats :
-    -	comparaison des prédictions aux valeurs réelles
-    -	Graphiques de visualisations des différents objectifs 
--	Perspectives (optionnel) :
-    -	ingestion d’un flux de données sur la base de data plus récentes pour les futures prédictions
-    -	traitement de ce flux
+    - Corrélation entre features
+    - Analyse exploratoire
+    - Entrainement de modèles
+
+-	06.[Présentation des résultats](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/06_resultats) :
+    -	Comparaison des prédictions aux valeurs réelles
+    -	Graphiques de visualisations des différents objectifs
+
+-	07.[Perspectives (optionnel)](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/07_perspectives) :
+    -	Ingestion d’un flux de données sur la base de data plus récentes pour les futures prédictions
+    -	Traitement de ce flux
