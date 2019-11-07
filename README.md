@@ -46,7 +46,7 @@ La finalité de notre P.O.C est multiple :
 	- premières requêtes pour avoir une vue macro des données
 
 
--	04.[Analyse de la data](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/04_data_analysis)) :
+-	04.[Analyse de la data](https://github.com/obrunet/Project_Big_Data_Renewable_energies/tree/master/04_data_analysis) :
 	- A developper en fonction des résultats !!!
 	- Tableau...
 
