@@ -5,7 +5,7 @@
   	- estimations heure par heure de différents sites de production à travers l’Europe de 1985 à 2015
   	- licence : Creative Commons CC0 : Public Domain
 
-- [the European Climate Assessment & Dataset project » [ECAD](https://www.ecad.eu//dailydata/index.php)
+- the European Climate Assessment & Dataset project » [ECAD](https://www.ecad.eu//dailydata/index.php)
   - mesures météo extrêmes ainsi que des infos journalières. 
   - Licence : « strictly for use in non-commercial research and education projects only »
 
