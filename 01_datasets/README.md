@@ -13,6 +13,14 @@
 
 - [Open Power Data System Data](https://open-power-system-data.org/)
 
-- Scrapinng du site internet [XXX](google.com)
+- Scrapinng du site internet [infoclimat](google.com)
 
 - Informations démographiques et données sur les matériaux constitutifs des éoliennes et panneaux solaire (en cours de recherche)
+
+
+## Scripts : 
+
+- Prétraitement de gros volumes de données
+  - [suppression d'entes de milliers de fichiers text](https://github.com/obrunet/Project_Big_Data_Renewable_energies/blob/master/01_datasets/remove_file_headers.py)
+  - concaténation de multiples fichiers avec pandas
+- [Scraping de l'historique de données météo](https://github.com/obrunet/Project_Big_Data_Renewable_energies/blob/master/01_datasets/several_webpages_scraping.py) - script robuste qui utilise de fake User Agent pour les requetes, avec un sleep un nbre random de secondes entre chaque requete qui permet de ne pas être bloqué comme bot. Les valeurs manquantes et différents cas de figure d'erreur sont traités.
