@@ -1,10 +1,9 @@
 """
 Parse different folders of extracted archives downloaded here : https://www.ecad.eu/dailydata/predefinedseries.php
-open files one by one and remove first 21 lines in order to remove headers
-later the edited files will be concatenated and put in a datalake.
+open files one by one and remove all spaces. Spaces are useless because separation is made by commas
 
 author : Olivier Brunet
-2019-10-07
+2019-10-18
 licence : GPL
 """
 
