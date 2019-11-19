@@ -21,6 +21,6 @@
 ## Scripts : 
 
 - Prétraitement de gros volumes de données
-  - [suppression d'entêtes de milliers de fichiers text](https://github.com/obrunet/Project_Big_Data_Renewable_energies/blob/master/01_datasets/remove_file_headers.py)
-  - concaténation de multiples fichiers avec pandas
-- [Scraping de l'historique de données météo](https://github.com/obrunet/Project_Big_Data_Renewable_energies/blob/master/01_datasets/several_webpages_scraping.py) - script robuste qui utilise de fake User Agents pour les headers de requests, avec un sleep un nbre random de secondes entre chaque requete qui permet de ne pas être bloqué comme bot. Les valeurs manquantes et différents cas de figure d'erreur sont traités, pour que le script ne soit pas bloqué/arrêté. Ce qui a permis de récupérer plusieurs années de data (soit plusieurs millieurs de requêtes).
+  - [suppression d'entêtes et des espaces de milliers de fichiers text](https://github.com/obrunet/Project_Big_Data_Renewable_energies/blob/master/01_datasets/preparation_datasets_meteo/remove_headers_spaces.py)
+  - [concaténation de multiples fichiers avec pandas](https://github.com/obrunet/Project_Big_Data_Renewable_energies/blob/master/01_datasets/preparation_datasets_meteo/merge_files_copy.py)
+- [Scraping de l'historique de données météo](https://github.com/obrunet/Project_Big_Data_Renewable_energies/blob/master/01_datasets/web_scraping/several_webpages_scraping.py) - script robuste qui utilise de fake User Agents pour les headers de requests, avec un sleep un nbre random de secondes entre chaque requete qui permet de ne pas être bloqué comme bot. Les valeurs manquantes et différents cas de figure d'erreur sont traités, pour que le script ne soit pas bloqué/arrêté. Ce qui a permis de récupérer plusieurs années de data (soit plusieurs millieurs de requêtes).
