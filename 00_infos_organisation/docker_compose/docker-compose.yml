@@ -21,7 +21,7 @@ services:
   cloudera_hostname:
     image: 'cloudera/quickstart'
     privileged: true
-    hostname: cloudera_hostname             # does it have to be the same ???
+    hostname: quickstart.cloudera             # cmd to launch cloudera
     command: /usr/bin/docker-quickstart
     ports:
       - "8020:8020"   # HDFS
@@ -43,7 +43,7 @@ services:
       - "9090:9090"   # HBase Thrift
       - "8080:8080"   # HBase Rest
       - "7077:7077"   # Spark Master
-    tty: true                               # what is it for ???
+    tty: true                      
     stdin_open: true
     volumes:
       - ~/Volume/:/SRC/
