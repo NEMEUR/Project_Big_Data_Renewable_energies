@@ -8,6 +8,7 @@ Les énergies renouvelables proviennent de phénomènes naturels et sont des sou
 
 Au cours de ce projet, nous allons nous intéresser plus particulièrement à l’éolien et au solaire : dans quelle mesure le big data peut-il permettre de donner un éclaircissement sur cette problématique énergétique ?
 
+![Alt text](https://github.com/obrunet/Project_Big_Data_Renewable_energies/blob/master/banner.png)
 
 ## Objectifs / Use cases :
 
