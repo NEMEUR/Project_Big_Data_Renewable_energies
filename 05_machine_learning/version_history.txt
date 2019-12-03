@@ -1,0 +1,6 @@
+historique des versions :
+
+- v2 : 1ère analyse complète "Exploratory Data Analysis"
+- v3 : clustering -> regroupement de pays par typologie de rendement solaire dans l'année
+- v4 : analyse plus synthétique que la v2 avec seulement un pays représentatif de chaque cluster
+- v5 : prediction avec entrainement de différents modèles de ML --- NOT FINISHED ---
