@@ -13,9 +13,7 @@
 
 - [Open Power Data System Data](https://open-power-system-data.org/)
 
-- Scrapinng du site internet [infoclimat](google.com)
-
-- Informations démographiques et données sur les matériaux constitutifs des éoliennes et panneaux solaire (en cours de recherche)
+- Scraping du site internet [infoclimat](google.com)
 
 
 ## Scripts : 
