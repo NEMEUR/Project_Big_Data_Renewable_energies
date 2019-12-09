@@ -1,4 +1,4 @@
-## Projet sur les énergies renouvelables - en particulier le solaire et l'éolien
+## La data au service des énergies renouvelables - en particulier le solaire et l'éolien
 
 ## Contexte
 
