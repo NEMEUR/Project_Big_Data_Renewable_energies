@@ -1,4 +1,4 @@
-## La data au service des énergies renouvelables - en particulier le solaire et l'éolien
+## La DATA au service des énergies renouvelables - en particulier le solaire et l'éolien
 
 ## Contexte
 
