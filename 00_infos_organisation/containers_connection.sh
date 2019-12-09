@@ -42,3 +42,34 @@ https://www.linode.com/docs/applications/containers/docker-container-communicati
 https://docs.docker.com/engine/reference/run/
 https://blog.oddbit.com/post/2014-08-11-four-ways-to-connect-a-docker/
 https://docs.docker.com/engine/reference/commandline/network_connect/
+
+
+----------------------------------------------------------------------------------------
+
+# launch shell as root
+docker exec -u 0 -it my_container_id_with_jupyter_spark bash
+
+# because there is no package cache in the image, you need to run:
+apt-get update
+
+# then https://stackoverflow.com/questions/27273412/cannot-install-packages-inside-docker-ubuntu-image
+apt-get install curl
+apt-get install iputils-ping
+apt insall nmap
+
+# test
+ping 127.0.0.1
+nmap -p 8020 cloudera_hostname
+
+
+
+https://community.cloudera.com/t5/Community-Articles/Accessing-Hbase-tables-and-querying-on-Dataframes-using/ta-p/247309
+https://sparkbyexamples.com/spark/writing-spark-dataframe-to-hbase-table-hortonworks/
+https://sparkbyexamples.com/spark/create-spark-dataframe-from-hbase-using-hortonworks/
+https://github.com/IBM/sparksql-for-hbase
+https://spark.apache.org/docs/latest/sql-data-sources-parquet.html
+https://www.vidyasource.com/blog/vidya/technology/lighting-a-spark-with-hbase-scala-hadoop/
+https://forum.huawei.com/enterprise/en/reading-data-from-hbase-and-writing-data-to-hbase-spark-case-6/thread/469231-899
+https://github.com/hortonworks-spark/shc
+https://diogoalexandrefranco.github.io/interacting-with-hbase-from-pyspark/
+
