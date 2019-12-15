@@ -2,7 +2,7 @@
 
 ## Contexte
 
-La transformation de l’énergie est un enjeu stratégique et toujours d’actualité : Comment passer d’une énergie fossile à une énergie dite renouvelable, d’une production centralisée à un système décentralisé afin de répondre à la nécessité d’un développement durable et responsable d’un point de vue écologique ? 
+La transition énergétique est un enjeu stratégique et toujours d’actualité : Comment passer d’une énergie fossile à une énergie dite renouvelable, d’une production centralisée à un système décentralisé afin de répondre à la nécessité d’un développement durable et responsable d’un point de vue écologique ? 
 
 Les énergies renouvelables proviennent de phénomènes naturels et sont des sources d'énergie dont le renouvellement naturel est assez rapide pour qu'elles puissent être considérées comme inépuisables à l'échelle du temps humain.
 
